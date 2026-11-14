@@ -7,7 +7,7 @@ body{
 }
 .site-header {
   padding: 30px 20px;
-  background: linear-gradient(45 deg,#2b5876,#4e4376);
+  background: linear-gradient(45deg,#2b5876,#4e4376);
   color: #FFFFFF;
 }
 .site-header h1{
@@ -22,7 +22,7 @@ body{
 }
 .site-nav .nav-link:hover,
 .site-nav .nav-link:focus,
-.site-nav .nav-link:active{
+.site-nav .nav-link.active{
   color: #FFFFFF;
   background-color: #4e4376;
 }
