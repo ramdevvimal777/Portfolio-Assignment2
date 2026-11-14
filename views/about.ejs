@@ -1,0 +1,35 @@
+<%- include('./header.ejs') %>
+<%- include('./main_nav.ejs') %>
+<main>
+    <section>
+        <h2>About Me</h2>
+        <img class="profile-photo" src="photo.JPG" alt="Photo">
+
+        <p>
+            Hello! My name is Ramdev Vimal, and I am a Second-year Networking and IT Security student at Ontario Tech University.
+
+        </p>
+        <p>
+            I am passsionate about technology and have a strong interest in cybersecurity, 
+            network security and ethical hacking. I enjoy learning about how computer networks operate,
+            identifying security vulnerabilities, and exploring methods used to protect systemsfrom cyber threats.. 
+        </p>
+        <p>
+            Through my academic studies and personal projects, I continue
+            to develop my skills in networking, security principles,
+            troubleshooting, and web technologies. My goal is to build a
+            successful career in the cybersecurity field and contribute to
+            creating safer and more secure digital environments.
+        </p>
+    </section>
+
+    <section>
+        <h2> Introduction Video</h2>
+        <video controls poster="/images/intro-poster.jpg" >
+            <source src="/videos/Intro-video.mp4" type="video/mp4" >
+            <source src="/videos/Intro-video_1.ogv" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+</main>
+<%- include('./footer.ejs') %>
