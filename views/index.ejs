@@ -1,11 +1,22 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+//Reusing the shared page structure
+<%- include('./header.ejs') %>
+<%- include('./main_nav.ejs') %>
+<main>
+    <article>
+        <h2> Welcome to my Portfolio </h2>
+        <p>
+            Welcome to my personal portfolio! This website highlights some of the projects and 
+            experiences i have gained throughout my academic journey.
+
+        </p>
+        <p>
+            Feel free to explore the different sections of my portfolio to learn more about me, 
+            view some of the projects I have worked on, and get in touch with me through the contact page.
+        
+        </p>
+        <p>
+            Thank you for visiting my portfolio. I hope you enjoy going through my work!
+        </p>
+    </article>
+</main>
+<%- include('./footer.ejs') %>
