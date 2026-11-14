@@ -13,8 +13,7 @@ https://github.com/ramdevvimal777/Portfolio-Assignment2
 
 ## Live Website
 
-Not deployed yet. This section will be updated with the Render URL
-after deployment.
+https://ramdev-portfolio.onrender.com/
 
 ## Technologies Used
 
